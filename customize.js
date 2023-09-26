@@ -1,10 +1,8 @@
 import { createSelectContainer } from "./container/create.js";
 import { closeAllDropdownMenus } from "./dropdown-menu/utils.js";
 
-/**
- * @param ose HTMLSelectElement you want to customize
- */
-export function customizeSelect(ose) {
+
+export function customizeOSE(ose) {
     hideOriginalSelect(ose);
     setUniqueOptionsInOriginalSelect(ose);
     addElsewhereClickListener();

@@ -1,10 +1,6 @@
 import { addOnOptionClickListener } from "./dropdown-menu/events.js";
 import { enableSelectedOption } from "./selected-option/utils.js";
 
-/**
- * @param ose HTMLSelectElement 
- * @param cse HTMLDivElement 
- * @param newOptions Map<Key, Value> */
 export function addOptionsToCSE(ose, cse, newOptions) { 
     if (newOptions.size > 0) {
         const optionsContainer = cse.getElementsByClassName("cse-options-container")[0];
