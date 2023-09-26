@@ -1,5 +1,5 @@
-import { customizeOSE } from "./customize.js";
 import { addOptionsToCSE } from "./add-options.js";
+import { customizeOSE } from "./customize.js";
 
 /**
  * @param htmlSelectElement HTMLSelectElement you want to customize.
